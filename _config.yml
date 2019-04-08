@@ -3,7 +3,7 @@ title: RayCity Reviving Plan
 subtitle: RayCity · 光线飞车 · 光速城市 · 레이시티
 email: contact@raycity.pro
 description: A responsive site template designed by HTML5 Up<br /> and released under the Creative Commons.
-baseurl: "/" # the subpath of your site, e.g. "/blog"
+#baseurl: "" # the subpath of your site, e.g. "/blog"
 url: # the base hostname & protocol for your site
 author: JohnGuan
 street_address: 
@@ -13,11 +13,15 @@ zip_code:
 country: 
 phone: 
 
-# homepage tiles
+# Multiple Languages
+languages: ["en", "zh", "th", "ko"]
+exclude_from_localizations: ["assets"]
+
+# Homepage Tiles
 tiles-source: pages # accepts "posts" or "pages"
 tiles-count: 6
 
-# social settings
+# Social Settings
 500px_url:
 facebook_url: https://facebook.com/RayCity.RevivingPlan
 github_url:
@@ -29,8 +33,12 @@ pinterest_url:
 slack_url:
 twitter_url: https://twitter.com/guanningchuan
 
-# build settings
+# Build Settings
 markdown: kramdown
 
 sass:
   style: compressed
+
+# Plugins
+plugins:
+  - jekyll-multiple-languages-plugin

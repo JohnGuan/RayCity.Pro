@@ -1,0 +1,11 @@
+global:
+  title: RayCity Revivng Plan
+  subtitle: RayCity · 光线飞车 · 光速城市 · 레이시티
+  lang: English
+  menu: More
+langs:
+  en: English
+  zh: 中文
+  th: ไทย
+titles:
+  index: "index"
